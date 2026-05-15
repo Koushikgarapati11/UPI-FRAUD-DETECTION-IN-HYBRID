@@ -1,0 +1,11 @@
+flask
+numpy
+pandas
+scikit-learn
+tensorflow
+joblib
+xgboost
+werkzeug
+python-dotenv
+imbalanced-learn
+requests

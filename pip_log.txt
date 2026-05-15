@@ -1,0 +1,48 @@
+Collecting flask (from -r requirements.txt (line 1))
+  Using cached flask-3.1.3-py3-none-any.whl.metadata (3.2 kB)
+Collecting numpy (from -r requirements.txt (line 2))
+  Using cached numpy-2.4.4.tar.gz (20.7 MB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Preparing metadata (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [21 lines of output]
+      + C:\Users\hp\OneDrive\Desktop\GARAPATI\RESUMES\upi_fraud_project\.venv\Scripts\python.exe C:\Users\hp\AppData\Local\Temp\pip-install-t3ss1ldq\numpy_aed3861023a04c698e84486dc3694095\vendored-meson\meson\meson.py setup C:\Users\hp\AppData\Local\Temp\pip-install-t3ss1ldq\numpy_aed3861023a04c698e84486dc3694095 C:\Users\hp\AppData\Local\Temp\pip-install-t3ss1ldq\numpy_aed3861023a04c698e84486dc3694095\.mesonpy-urp77wz2 -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md --native-file=C:\Users\hp\AppData\Local\Temp\pip-install-t3ss1ldq\numpy_aed3861023a04c698e84486dc3694095\.mesonpy-urp77wz2\meson-python-native-file.ini
+      The Meson build system
+      Version: 1.9.2
+      Source dir: C:\Users\hp\AppData\Local\Temp\pip-install-t3ss1ldq\numpy_aed3861023a04c698e84486dc3694095
+      Build dir: C:\Users\hp\AppData\Local\Temp\pip-install-t3ss1ldq\numpy_aed3861023a04c698e84486dc3694095\.mesonpy-urp77wz2
+      Build type: native build
+      WARNING: Failed to activate VS environment: Could not find C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe
+      Project name: NumPy
+      Project version: 2.4.4
+      
+      ..\meson.build:1:0: ERROR: Unknown compiler(s): [['icl'], ['cl'], ['cc'], ['gcc'], ['clang'], ['clang-cl'], ['pgcc']]
+      The following exception(s) were encountered:
+      Running `icl ""` gave "[WinError 2] The system cannot find the file specified"
+      Running `cl /?` gave "[WinError 2] The system cannot find the file specified"
+      Running `cc --version` gave "[WinError 2] The system cannot find the file specified"
+      Running `gcc --version` gave "[WinError 2] The system cannot find the file specified"
+      Running `clang --version` gave "[WinError 2] The system cannot find the file specified"
+      Running `clang-cl /?` gave "[WinError 2] The system cannot find the file specified"
+      Running `pgcc --version` gave "[WinError 2] The system cannot find the file specified"
+      
+      A full log can be found at C:\Users\hp\AppData\Local\Temp\pip-install-t3ss1ldq\numpy_aed3861023a04c698e84486dc3694095\.mesonpy-urp77wz2\meson-logs\meson-log.txt
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> numpy
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
